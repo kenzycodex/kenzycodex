@@ -3,7 +3,7 @@
   I bring ideas to life with code and creativity. Let's build something extraordinary! 🌐💻
 </h2>
 
-<h3 align="center">Web Developer | App Developer | Graphics Designer | Tech Enthusiast</h3>
+<h3 align="center">Software Developer | Web Developer | Graphics Designer | Tech Enthusiast</h3>
 
 <!-- Profile Image -->
 <p align="center">
@@ -12,19 +12,11 @@
 
 <!-- Cool Features -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kenzycodex&theme=highcontrast" alt="Streak Stats" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=kenzycodex&show_icons=true&theme=highcontrast&locale=en" alt="GitHub Stats" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kenzycodex&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=kenzycodex&theme=react-dark&hide_border=true&bg_color=000000&color=58a6ff&line=58a6ff&point=FFFFFF" alt="Contribution Graph" />
 </p>
 
 <!-- GitHub Trophies -->

@@ -6,10 +6,11 @@
 
 <!-- Profile Image -->
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/173614282?v=4" alt="Kenzy Codex" width="150" style="border-radius: 50%; border: 3px solid #0e75b6;" />
+  <img src="https://avatars.githubusercontent.com/u/173614282?v=4" alt="Kenzy Codex" width="80" style="border-radius: 50%; border: 3px solid #0e75b6;" />
 </p>
 
 <!-- GitHub Trophies -->
+<p><img align="center" style="width:100%" src="https://github-readme-streak-stats.herokuapp.com?user=kenzycodex&theme=highcontrast" alt="Kenzy Codex Streak Stats" /></p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=kenzycodex&theme=onestar&no-frame=true&margin-w=15" alt="GitHub Trophies" />
 </p>
@@ -32,10 +33,13 @@
     <img align="center" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Kenzy Codex Website" height="30" width="40" />
   </a>
   <a href="https://tiktok.com/@kenzycodex" target="blank">
-    <img align="center" src="https://img.icons8.com/color/48/000000/tiktok.png" alt="Kenzy Codex TikTok" height="30" width="40" />
+    <img align="center" src="https://img.icons8.com/color/48/000000/tiktok.png" alt="Kenzy Codex TikTok" height="40" width="40" />
+  </a>
+  <a href="https://www.youtube.com/@codewithkenzy" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="codewithkenzy" height="40" width="40" />
   </a>
   <a href="https://wa.me/+2347064538411" target="blank">
-    <img align="center" src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Kenzy Codex WhatsApp" height="30" width="40" />
+    <img align="center" src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Kenzy Codex WhatsApp" height="40" width="40" />
   </a>
 </p>
 

@@ -1,6 +1,6 @@
 <!-- Animated Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Kenzy+Codex+%F0%9F%92%99;Full+Stack+Developer+%7C+Brand+Designer;Building+Innovative+Solutions+%F0%9F%9A%80;Let's+Create+Something+Amazing+Together!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Kenzy+Codex+%F0%9F%92%99;Full+Stack+Developer+%7C+Brand+Designer;Building+Innovative+Solutions+%F0%9F%9A%80;Let's+Create+Something+Amazing+Together!" alt="Typing SVG" />
 </p>
 
 <!-- About Me Section -->

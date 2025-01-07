@@ -1,9 +1,8 @@
-<h2 align="center" style="font-size:1.5rem">
-  Hi 👋, I'm <strong>Kenzy Codex 😎❣️</strong>, a Web & App Developer 🚀, Graphics Designer 🎨, Poet ✍️, Coding Wizard ✨, and Pianist 🎹.  
-  I bring ideas to life with code and creativity. Let's build something extraordinary! 🌐💻
+<h2 align="center" style="font-size:1.4rem">
+  Hi 👋, I'm <strong>Kenzy Codex 😎❣️</strong>, a self-taught Full Stack Developer and Brand Designer with a passion for crafting sleek websites, apps, and standout designs. I specialize in web development, app development, branding, cloud services, databases, and crypto investment. Fueled by curiosity and a love for problem-solving, I’m all about creating innovative and efficient solutions. Let’s connect and build something awesome together! 💻✨🚀
 </h2>
 
-<h3 align="center">Software Developer | Web Developer | Graphics Designer | Tech Enthusiast</h3>
+<h3 align="center">Full Stack Web Developer | Brand Designer | Tech Enthusiast</h3>
 
 <!-- Profile Image -->
 <p align="center">

@@ -13,9 +13,14 @@
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/173614282?v=4" alt="Kenzy Codex" width="80" style="border-radius: 50%; border: 3px solid #0e75b6;" />
   <br>
-  <a href="https://github.com/kenzycodex?tab=followers">
-    <img src="https://custom-icon-badges.demolab.com/github/followers/kenzycodex?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white" alt="Follow Button"/>
-  </a>
+  <div align="center">
+  
+  ### 🌟 Love what you see? Let's connect! 🌟
+  
+  [![GitHub followers](https://custom-icon-badges.demolab.com/github/followers/kenzycodex?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Join%20My%20Developer%20Community&logoColor=white)](https://github.com/kenzycodex?tab=followers)
+  
+  *Together we can build something amazing! Hit the follow button on my profile to stay updated with my latest projects and coding adventures* 🚀
+</div>
 </p>
 
 <!-- Enhanced Stats Section -->

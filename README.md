@@ -72,8 +72,8 @@
 
 <!-- Enhanced Stats Cards -->
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en&layout=compact" alt="Top Languages" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en&layout=compact" alt="Top Languages" />
 </p>
 
 <!-- Activity Graph -->

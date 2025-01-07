@@ -10,7 +10,10 @@
 </p>
 
 <!-- GitHub Trophies -->
-<p><img align="center" style="width:100%" src="https://github-readme-streak-stats.herokuapp.com?user=kenzycodex&theme=highcontrast" alt="Kenzy Codex Streak Stats" /></p>
+<p><img align="center" style="width:100%" src="https://github-readme-streak-stats.herokuapp.com/?user=kenzycodex&theme=highcontrast" alt="Kenzy Codex Streak Stats" /></p>
+<p>
+  <img align="left" src="https://komarev.com/ghpvc/?username=kenzycodex&label=Profile%20views&color=0e75b6&style=flat-square" alt="Kenzy Codex Profile Views" />
+</p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=kenzycodex&theme=onestar&no-frame=true&margin-w=15" alt="GitHub Trophies" />
 </p>

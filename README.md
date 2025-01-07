@@ -86,16 +86,5 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kenzycodex&theme=react-dark&hide_border=true&bg_color=0D1117&color=0E75B6&line=0E75B6&point=FFFFFF" alt="Activity Graph" />
 </p>
 
-<!-- Featured Projects Section -->
-<h3 align="center">🔭 Featured Projects</h3>
-<div align="center">
-  <a href="#">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kenzycodex&repo=placeholder-project-1&theme=github_dark&hide_border=true" />
-  </a>
-  <a href="#">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kenzycodex&repo=placeholder-project-2&theme=github_dark&hide_border=true" />
-  </a>
-</div>
-
 <!-- Footer Wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&section=footer" />

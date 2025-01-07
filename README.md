@@ -1,5 +1,5 @@
 <h2 align="center" style="font-size:1.4rem">
-  Hi 👋, I'm <strong>Kenzy Codex 😎❣️</strong>, a self-taught Full Stack Developer and Brand Designer with a passion for crafting sleek websites, apps, and standout designs. I specialize in web development, app development, branding, cloud services, databases, and crypto investment. Fueled by curiosity and a love for problem-solving, I’m all about creating innovative and efficient solutions. Let’s connect and build something awesome together! 💻✨🚀
+  Hi 👋, I'm <strong>Kenzy Codex 💙</strong>, a self-taught Full Stack Developer and Brand Designer with a passion for crafting sleek websites, apps, and standout designs. I specialize in web development, app development, branding, cloud services, databases, and crypto investment. Fueled by curiosity and a love for problem-solving, I’m all about creating innovative and efficient solutions. Let’s connect and build something awesome together! 💻✨🚀
 </h2>
 
 <h3 align="center">A passionate Full Stack Web, App Developer and Brand Designer</h3>

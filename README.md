@@ -15,7 +15,7 @@
   <br>
   <div align="center">
   
-  ### 🌟 Please follow & Let's connect! 🌟
+  ### 🌟 Please let's follow & connect! 🌟
   
   [![GitHub followers](https://custom-icon-badges.demolab.com/github/followers/kenzycodex?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Join%20My%20Developer%20Community&logoColor=white)](https://github.com/kenzycodex?tab=followers)
   

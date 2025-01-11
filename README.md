@@ -8,6 +8,8 @@
 <p align="center">
   A self-taught Full Stack Developer and Brand Designer passionate about creating elegant solutions. I specialize in web development, app development, branding, cloud services, databases, and crypto investment. Let's innovate together! 💻✨
 </p>
+ <!-- Profile Image with Quick Follow Button -->
+ 
 
 <!-- Profile Image with Quick Follow Button -->
 <p align="center">

@@ -1,21 +1,21 @@
 name: Generate Snake Animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "0 */12 * * *" # Every 12 hours
+  schedule: 
+    - cron: "0 */12 * * *" 
 
   workflow_dispatch:
 
   push:
     branches:
-    - main # Changed to 'main' to reflect the default branch
+    - main 
 
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10 # Increased timeout to allow more processing time
+    timeout-minutes: 10 
 
     steps:
       - name: Checkout Repository
@@ -24,7 +24,7 @@ jobs:
       - name: Generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: kenzycodex # Your GitHub username
+          github_user_name: kenzycodex 
           outputs: dist/snake.svg?palette=github-dark
 
       - name: Push snake.svg to output branch

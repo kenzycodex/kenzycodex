@@ -34,9 +34,27 @@
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/fireworks.svg" alt="Contribution Fireworks" />
-</p>
+<!-- Contribution Celebration -->
+<div align="center">
+  <h3>🎉 My GitHub Contributions Celebration 🎉</h3>
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/celebration.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/celebration.svg"
+    />
+    <img
+      alt="GitHub Contribution Celebration"
+      src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/celebration.svg"
+      width="100%"
+    />
+  </picture>
+  
+  <em>Each sparkle represents a day of contribution! ✨</em>
+</div>
 
 <!-- Enhanced Stats Section -->
 <p align="center">

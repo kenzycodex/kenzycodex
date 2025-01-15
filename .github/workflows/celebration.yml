@@ -1,0 +1,127 @@
+name: Generate Advanced Contribution Celebration
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          npm install @svgdotjs/svg.js
+          npm install axios
+          npm install d3
+
+      - name: Generate Contribution Celebration
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const { SVG } = require('@svgdotjs/svg.js');
+            const axios = require('axios');
+            
+            async function generateCelebration() {
+              // Create SVG canvas
+              const draw = SVG().size(1200, 300);
+              
+              // Fetch contribution data
+              const username = context.repo.owner;
+              const contributionsQuery = `
+                query($username: String!) {
+                  user(login: $username) {
+                    contributionsCollection {
+                      contributionCalendar {
+                        totalContributions
+                        weeks {
+                          contributionDays {
+                            contributionCount
+                            date
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              `;
+              
+              const { data } = await github.graphql(contributionsQuery, { username });
+              const contributions = data.user.contributionsCollection.contributionCalendar;
+              
+              // Generate celebration animation
+              contributions.weeks.forEach((week, weekIndex) => {
+                week.contributionDays.forEach((day, dayIndex) => {
+                  if (day.contributionCount > 0) {
+                    // Create firework burst for each contribution day
+                    const x = weekIndex * 16 + 50;
+                    const y = dayIndex * 16 + 50;
+                    
+                    // Add sparkle animation
+                    const sparkle = draw.circle(8)
+                      .fill({ color: '#FFD700' })
+                      .move(x, y)
+                      .animate(1000, '<>', 0)
+                      .attr({ r: day.contributionCount * 2 })
+                      .animate(1000, '<>', 1000)
+                      .attr({ r: 4 })
+                      .loop();
+                      
+                    // Add particle effects
+                    for (let i = 0; i < 8; i++) {
+                      const angle = (i * Math.PI * 2) / 8;
+                      const particle = draw.circle(4)
+                        .fill({ color: ['#FF69B4', '#4169E1', '#32CD32'][i % 3] })
+                        .move(x + Math.cos(angle) * 20, y + Math.sin(angle) * 20)
+                        .animate(2000, '<>', 0)
+                        .move(x + Math.cos(angle) * 40, y + Math.sin(angle) * 40)
+                        .opacity(0)
+                        .loop();
+                    }
+                  }
+                });
+              });
+              
+              // Add celebration text
+              const totalContributions = contributions.totalContributions;
+              draw.text(`🎉 ${totalContributions} Contributions! 🎉`)
+                .font({ size: 24, family: 'Arial', weight: 'bold' })
+                .fill('#0366d6')
+                .move(500, 130)
+                .animate(2000, '<>', 0)
+                .scale(1.2)
+                .animate(2000, '<>', 2000)
+                .scale(1)
+                .loop();
+              
+              // Save the SVG
+              fs.mkdirSync('dist', { recursive: true });
+              fs.writeFileSync('dist/celebration.svg', draw.svg());
+            }
+            
+            await generateCelebration();
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "🎉 Update contribution celebration animation"

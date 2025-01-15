@@ -25,6 +25,15 @@
 </div>
 </p>
 
+<!-- Snake Animation -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake-light.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake.svg" />
+  </picture>
+</p>
+
 <!-- Enhanced Stats Section -->
 <p align="center">
   <img width="100%" src="https://github-readme-streak-stats-phi-opal.vercel.app/?user=kenzycodex&theme=dark&hide_border=true" />

@@ -1,0 +1,37 @@
+name: Generate Contribution Fireworks
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15 
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Generate Fireworks Animation
+        uses: github-contribution-fireworks/action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.repository_owner }}
+          firework_colors: "#FF0000,#00FF00,#0000FF,#FFFF00,#FF00FF"
+          explosion_radius: "50"
+          particle_count: "100"
+          animation_duration: "3000"
+          output_path: "dist/fireworks.svg"

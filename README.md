@@ -34,6 +34,10 @@
   </picture>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/fireworks.svg" alt="Contribution Fireworks" />
+</p>
+
 <!-- Enhanced Stats Section -->
 <p align="center">
   <img width="100%" src="https://github-readme-streak-stats-phi-opal.vercel.app/?user=kenzycodex&theme=dark&hide_border=true" />

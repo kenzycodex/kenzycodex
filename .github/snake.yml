@@ -1,36 +1,71 @@
-name: Generate Snake Animation
+name: Generate Advanced Snake Animation
 
 on:
-  schedule: 
-    - cron: "0 */12 * * *" 
-
+  # Runs twice daily
+  schedule:
+    - cron: "0 */12 * * *"
+  # Allow manual triggering
   workflow_dispatch:
-
+  # Run on main branch pushes
   push:
     branches:
-    - main 
+      - main
+      - master
 
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10 
+    timeout-minutes: 15  # Increased timeout for larger contribution graphs
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Generate snake.svg
+        uses: actions/checkout@v4  # Updated to v4 for better performance
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Generate Snake Animation
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: kenzycodex 
-          outputs: dist/snake.svg?palette=github-dark
-
-      - name: Push snake.svg to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+          github_user_name: kenzycodex
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg
+            dist/snake-light.svg
+          
+          # Customize snake appearance
+          snake_color: '#36BCF7'
+          snake_size: 14
+          
+          # Customize grid appearance
+          color_dots: '#2563EB,#3B82F6,#60A5FA,#93C5FD,#BFDBFE'
+          color_dots_empty: '#1F2937'
+          
+          # Animation settings
+          animation_duration: 4000
+          animation_frame_rate: 50
+          
+      - name: Push to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          keep_history: true
+          commit_message: "🐍 Generate Snake Animation"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: "🐍 Deploy Snake Animation"
+          enable_jekyll: false

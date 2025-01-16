@@ -25,22 +25,6 @@
 </div>
 </p>
 
-<!-- Snake Animation -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake-light.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake.svg" />
-  </picture>
-</p>
-
-<!-- Contribution Celebration -->
-<div align="center">
-  <h3>✨ My GitHub Journey ✨</h3>
-  <img src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/celebration.svg" alt="GitHub Contribution Celebration" width="100%" />
-  <em>Every star represents a day of contribution! 🌟</em>
-</div>
-
 <!-- Enhanced Stats Section -->
 <p align="center">
   <img width="100%" src="https://github-readme-streak-stats-phi-opal.vercel.app/?user=kenzycodex&theme=dark&hide_border=true" />
@@ -56,6 +40,22 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=kenzycodex&theme=algolia&no-frame=true&margin-w=15&column=-1" alt="GitHub Trophies" />
 </p>
+
+<!-- Snake Animation -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake-light.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake.svg" />
+  </picture>
+</p>
+
+<!-- Contribution Celebration -->
+<div align="center">
+  <h3>✨ My GitHub Journey ✨</h3>
+  <img src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/celebration.svg" alt="GitHub Contribution Celebration" width="100%" />
+  <em>Every star represents a day of contribution! 🌟</em>
+</div>
 
 <!-- Connect Section - Preserved All Original Links -->
 <h3 align="left">Connect with me:</h3>

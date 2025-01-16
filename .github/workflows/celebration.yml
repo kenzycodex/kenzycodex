@@ -1,4 +1,4 @@
-name: Generate Advanced Contribution Celebration
+name: Generate Contribution Celebration
 
 on:
   schedule:
@@ -26,22 +26,18 @@ jobs:
           node-version: '20'
 
       - name: Install Dependencies
-        run: |
-          npm install @svgdotjs/svg.js
-          npm install axios
-          npm install d3
+        run: npm install d3-node axios
 
-      - name: Generate Contribution Celebration
+      - name: Generate Celebration
         uses: actions/github-script@v7
         with:
           script: |
+            const D3Node = require('d3-node');
             const fs = require('fs');
-            const { SVG } = require('@svgdotjs/svg.js');
-            const axios = require('axios');
             
             async function generateCelebration() {
-              // Create SVG canvas
-              const draw = SVG().size(1200, 300);
+              const d3n = new D3Node();
+              const d3 = d3n.d3;
               
               // Fetch contribution data
               const username = context.repo.owner;
@@ -66,54 +62,74 @@ jobs:
               const { data } = await github.graphql(contributionsQuery, { username });
               const contributions = data.user.contributionsCollection.contributionCalendar;
               
-              // Generate celebration animation
+              // Create SVG
+              const svg = d3n.createSVG(1200, 300)
+                .attr('xmlns', 'http://www.w3.org/2000/svg')
+                .style('background', 'transparent');
+              
+              // Add gradient definitions
+              const defs = svg.append('defs');
+              const gradient = defs.append('linearGradient')
+                .attr('id', 'contribution-gradient')
+                .attr('x1', '0%')
+                .attr('y1', '0%')
+                .attr('x2', '100%')
+                .attr('y2', '100%');
+                
+              gradient.append('stop')
+                .attr('offset', '0%')
+                .attr('style', 'stop-color:#FF69B4;stop-opacity:1');
+              gradient.append('stop')
+                .attr('offset', '50%')
+                .attr('style', 'stop-color:#4169E1;stop-opacity:1');
+              gradient.append('stop')
+                .attr('offset', '100%')
+                .attr('style', 'stop-color:#32CD32;stop-opacity:1');
+              
+              // Add celebration elements
+              const container = svg.append('g')
+                .attr('transform', 'translate(50, 50)');
+              
+              // Add animated stars for contributions
               contributions.weeks.forEach((week, weekIndex) => {
                 week.contributionDays.forEach((day, dayIndex) => {
                   if (day.contributionCount > 0) {
-                    // Create firework burst for each contribution day
-                    const x = weekIndex * 16 + 50;
-                    const y = dayIndex * 16 + 50;
+                    const x = weekIndex * 16;
+                    const y = dayIndex * 16;
                     
-                    // Add sparkle animation
-                    const sparkle = draw.circle(8)
-                      .fill({ color: '#FFD700' })
-                      .move(x, y)
-                      .animate(1000, '<>', 0)
-                      .attr({ r: day.contributionCount * 2 })
-                      .animate(1000, '<>', 1000)
-                      .attr({ r: 4 })
-                      .loop();
-                      
-                    // Add particle effects
-                    for (let i = 0; i < 8; i++) {
-                      const angle = (i * Math.PI * 2) / 8;
-                      const particle = draw.circle(4)
-                        .fill({ color: ['#FF69B4', '#4169E1', '#32CD32'][i % 3] })
-                        .move(x + Math.cos(angle) * 20, y + Math.sin(angle) * 20)
-                        .animate(2000, '<>', 0)
-                        .move(x + Math.cos(angle) * 40, y + Math.sin(angle) * 40)
-                        .opacity(0)
-                        .loop();
-                    }
+                    // Create star shape
+                    container.append('path')
+                      .attr('d', `M ${x},${y} l 5,0 l 2,-5 l 2,5 l 5,0 l -4,3 l 2,5 l -5,-3 l -5,3 l 2,-5 z`)
+                      .style('fill', 'url(#contribution-gradient)')
+                      .append('animate')
+                      .attr('attributeName', 'opacity')
+                      .attr('values', '0;1;0')
+                      .attr('dur', '2s')
+                      .attr('repeatCount', 'indefinite');
                   }
                 });
               });
               
               // Add celebration text
-              const totalContributions = contributions.totalContributions;
-              draw.text(`🎉 ${totalContributions} Contributions! 🎉`)
-                .font({ size: 24, family: 'Arial', weight: 'bold' })
-                .fill('#0366d6')
-                .move(500, 130)
-                .animate(2000, '<>', 0)
-                .scale(1.2)
-                .animate(2000, '<>', 2000)
-                .scale(1)
-                .loop();
+              const text = container.append('text')
+                .attr('x', 500)
+                .attr('y', 130)
+                .attr('text-anchor', 'middle')
+                .style('font-family', 'Arial')
+                .style('font-size', '24px')
+                .style('font-weight', 'bold')
+                .style('fill', '#0366d6')
+                .text(`🎉 ${contributions.totalContributions} Contributions! 🎉`);
+              
+              text.append('animate')
+                .attr('attributeName', 'font-size')
+                .attr('values', '24;28;24')
+                .attr('dur', '2s')
+                .attr('repeatCount', 'indefinite');
               
               // Save the SVG
               fs.mkdirSync('dist', { recursive: true });
-              fs.writeFileSync('dist/celebration.svg', draw.svg());
+              fs.writeFileSync('dist/celebration.svg', d3n.svgString());
             }
             
             await generateCelebration();

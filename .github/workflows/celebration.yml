@@ -3,7 +3,7 @@ name: Generate Contribution Celebration
 on:
   schedule:
     - cron: "0 0 * * *"  # Run once daily at midnight
-  workflow_dispatch:      # Manual trigger
+  workflow_dispatch:      # Allow manual triggering
   push:
     branches:
       - main
@@ -42,35 +42,34 @@ jobs:
           cat > generate.mjs << 'EOF'
           import * as d3 from 'd3';
           import fs from 'fs';
-          
+
           export async function generateCelebration(github, context) {
             try {
-              // Fetch contribution data
               const username = context.repo.owner;
-              console.log('Fetching data for user:', username);
-              
+              console.log('Fetching contribution data for user:', username);
+
               const contributionsQuery = `
                 query($username: String!) {
                   user(login: $username) {
                     contributionsCollection {
-                      totalContributions
-                      weeks {
-                        contributionDays {
-                          contributionCount
-                          date
-                          color
+                      contributionCalendar {
+                        totalContributions
+                        weeks {
+                          contributionDays {
+                            contributionCount
+                            date
+                            color
+                          }
                         }
                       }
                     }
                   }
                 }
               `;
-              
-              const { data } = await github.graphql(contributionsQuery, { username });
-              const contributions = data.user.contributionsCollection.contributionCalendar;
-              
-              // Create SVG content manually
-              console.log('Creating SVG...');
+
+              const { user } = await github.graphql(contributionsQuery, { username });
+              const contributions = user.contributionsCollection.contributionCalendar;
+
               let svgContent = `
                 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
                   <style>
@@ -82,7 +81,6 @@ jobs:
                     .star { animation: pulse 2s infinite; }
                     .contribution-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
                   </style>
-                  
                   <defs>
                     <linearGradient id="contribution-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
                       <stop offset="0%" style="stop-color:#FF69B4;stop-opacity:1" />
@@ -90,27 +88,23 @@ jobs:
                       <stop offset="100%" style="stop-color:#32CD32;stop-opacity:1" />
                     </linearGradient>
                   </defs>
-                  
                   <rect width="800" height="120" fill="transparent"/>
               `;
-              
-              // Add stars based on total contributions
+
               const totalContributions = contributions.totalContributions;
-              const maxStars = 20; // Limit the number of stars for aesthetic purposes
+              const maxStars = 20;
               const starCount = Math.min(Math.ceil(totalContributions / 50), maxStars);
-              
+
               for (let i = 0; i < starCount; i++) {
                 const x = 40 + (i * 40);
                 const y = 30;
-                const starPath = `
+                svgContent += `
                   <path class="star" transform="translate(${x}, ${y})" 
                         d="M 0,-10 L 2,-3 L 9,-3 L 4,1 L 6,8 L 0,4 L -6,8 L -4,1 L -9,-3 L -2,-3 Z"
                         fill="url(#contribution-gradient)" />
                 `;
-                svgContent += starPath;
               }
-              
-              // Add celebration text
+
               svgContent += `
                 <text x="400" y="80" 
                       class="contribution-text"
@@ -121,18 +115,12 @@ jobs:
                   🎉 ${totalContributions.toLocaleString()} Contributions! 🎉
                 </text>
               </svg>`;
-              
-              // Ensure dist directory exists
-              console.log('Creating dist directory...');
+
               fs.mkdirSync('dist', { recursive: true });
-              
-              // Save the SVG
-              console.log('Writing SVG file...');
               fs.writeFileSync('dist/celebration.svg', svgContent);
               console.log('Successfully generated celebration SVG!');
-              
             } catch (error) {
-              console.error('Error in generateCelebration:', error);
+              console.error('Error generating SVG:', error);
               throw error;
             }
           }
@@ -142,25 +130,8 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            try {
-              console.log('Current working directory:', process.cwd());
-              const fileExists = require('fs').existsSync('generate.mjs');
-              console.log('Checking if generate.mjs exists:', fileExists);
-              
-              if (!fileExists) {
-                throw new Error('generate.mjs file not found!');
-              }
-              
-              console.log('Importing generateCelebration function...');
-              const { generateCelebration } = await import(`${process.cwd()}/generate.mjs`);
-              
-              console.log('Starting celebration generation...');
-              await generateCelebration(github, context);
-              console.log('Celebration generation completed successfully!');
-            } catch (error) {
-              console.error('Error in workflow execution:', error);
-              throw error;
-            }
+            const { generateCelebration } = await import(`${process.cwd()}/generate.mjs`);
+            await generateCelebration(github, context);
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

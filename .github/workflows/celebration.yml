@@ -25,6 +25,110 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Create Script
+        run: |
+          cat > generate.mjs << 'EOF'
+          import D3Node from 'd3-node';
+          import fs from 'fs';
+          
+          export async function generateCelebration(github, context) {
+            const d3n = new D3Node();
+            const d3 = d3n.d3;
+            
+            // Fetch contribution data
+            const username = context.repo.owner;
+            const contributionsQuery = `
+              query($username: String!) {
+                user(login: $username) {
+                  contributionsCollection {
+                    contributionCalendar {
+                      totalContributions
+                      weeks {
+                        contributionDays {
+                          contributionCount
+                          date
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+            
+            const { data } = await github.graphql(contributionsQuery, { username });
+            const contributions = data.user.contributionsCollection.contributionCalendar;
+            
+            // Create SVG
+            const svg = d3n.createSVG(1200, 300)
+              .attr('xmlns', 'http://www.w3.org/2000/svg')
+              .style('background', 'transparent');
+            
+            // Add gradient definitions
+            const defs = svg.append('defs');
+            const gradient = defs.append('linearGradient')
+              .attr('id', 'contribution-gradient')
+              .attr('x1', '0%')
+              .attr('y1', '0%')
+              .attr('x2', '100%')
+              .attr('y2', '100%');
+              
+            gradient.append('stop')
+              .attr('offset', '0%')
+              .attr('style', 'stop-color:#FF69B4;stop-opacity:1');
+            gradient.append('stop')
+              .attr('offset', '50%')
+              .attr('style', 'stop-color:#4169E1;stop-opacity:1');
+            gradient.append('stop')
+              .attr('offset', '100%')
+              .attr('style', 'stop-color:#32CD32;stop-opacity:1');
+            
+            // Add celebration elements
+            const container = svg.append('g')
+              .attr('transform', 'translate(50, 50)');
+            
+            // Add animated stars for contributions
+            contributions.weeks.forEach((week, weekIndex) => {
+              week.contributionDays.forEach((day, dayIndex) => {
+                if (day.contributionCount > 0) {
+                  const x = weekIndex * 16;
+                  const y = dayIndex * 16;
+                  
+                  // Create star shape
+                  container.append('path')
+                    .attr('d', `M ${x},${y} l 5,0 l 2,-5 l 2,5 l 5,0 l -4,3 l 2,5 l -5,-3 l -5,3 l 2,-5 z`)
+                    .style('fill', 'url(#contribution-gradient)')
+                    .append('animate')
+                    .attr('attributeName', 'opacity')
+                    .attr('values', '0;1;0')
+                    .attr('dur', '2s')
+                    .attr('repeatCount', 'indefinite');
+                }
+              });
+            });
+            
+            // Add celebration text
+            const text = container.append('text')
+              .attr('x', 500)
+              .attr('y', 130)
+              .attr('text-anchor', 'middle')
+              .style('font-family', 'Arial')
+              .style('font-size', '24px')
+              .style('font-weight', 'bold')
+              .style('fill', '#0366d6')
+              .text(`🎉 ${contributions.totalContributions} Contributions! 🎉`);
+            
+            text.append('animate')
+              .attr('attributeName', 'font-size')
+              .attr('values', '24;28;24')
+              .attr('dur', '2s')
+              .attr('repeatCount', 'indefinite');
+            
+            // Save the SVG
+            fs.mkdirSync('dist', { recursive: true });
+            fs.writeFileSync('dist/celebration.svg', d3n.svgString());
+          }
+          EOF
+
       - name: Install Dependencies
         run: npm install d3-node axios
 
@@ -32,107 +136,8 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const D3Node = require('d3-node');
-            const fs = require('fs');
-            
-            async function generateCelebration() {
-              const d3n = new D3Node();
-              const d3 = d3n.d3;
-              
-              // Fetch contribution data
-              const username = context.repo.owner;
-              const contributionsQuery = `
-                query($username: String!) {
-                  user(login: $username) {
-                    contributionsCollection {
-                      contributionCalendar {
-                        totalContributions
-                        weeks {
-                          contributionDays {
-                            contributionCount
-                            date
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              `;
-              
-              const { data } = await github.graphql(contributionsQuery, { username });
-              const contributions = data.user.contributionsCollection.contributionCalendar;
-              
-              // Create SVG
-              const svg = d3n.createSVG(1200, 300)
-                .attr('xmlns', 'http://www.w3.org/2000/svg')
-                .style('background', 'transparent');
-              
-              // Add gradient definitions
-              const defs = svg.append('defs');
-              const gradient = defs.append('linearGradient')
-                .attr('id', 'contribution-gradient')
-                .attr('x1', '0%')
-                .attr('y1', '0%')
-                .attr('x2', '100%')
-                .attr('y2', '100%');
-                
-              gradient.append('stop')
-                .attr('offset', '0%')
-                .attr('style', 'stop-color:#FF69B4;stop-opacity:1');
-              gradient.append('stop')
-                .attr('offset', '50%')
-                .attr('style', 'stop-color:#4169E1;stop-opacity:1');
-              gradient.append('stop')
-                .attr('offset', '100%')
-                .attr('style', 'stop-color:#32CD32;stop-opacity:1');
-              
-              // Add celebration elements
-              const container = svg.append('g')
-                .attr('transform', 'translate(50, 50)');
-              
-              // Add animated stars for contributions
-              contributions.weeks.forEach((week, weekIndex) => {
-                week.contributionDays.forEach((day, dayIndex) => {
-                  if (day.contributionCount > 0) {
-                    const x = weekIndex * 16;
-                    const y = dayIndex * 16;
-                    
-                    // Create star shape
-                    container.append('path')
-                      .attr('d', `M ${x},${y} l 5,0 l 2,-5 l 2,5 l 5,0 l -4,3 l 2,5 l -5,-3 l -5,3 l 2,-5 z`)
-                      .style('fill', 'url(#contribution-gradient)')
-                      .append('animate')
-                      .attr('attributeName', 'opacity')
-                      .attr('values', '0;1;0')
-                      .attr('dur', '2s')
-                      .attr('repeatCount', 'indefinite');
-                  }
-                });
-              });
-              
-              // Add celebration text
-              const text = container.append('text')
-                .attr('x', 500)
-                .attr('y', 130)
-                .attr('text-anchor', 'middle')
-                .style('font-family', 'Arial')
-                .style('font-size', '24px')
-                .style('font-weight', 'bold')
-                .style('fill', '#0366d6')
-                .text(`🎉 ${contributions.totalContributions} Contributions! 🎉`);
-              
-              text.append('animate')
-                .attr('attributeName', 'font-size')
-                .attr('values', '24;28;24')
-                .attr('dur', '2s')
-                .attr('repeatCount', 'indefinite');
-              
-              // Save the SVG
-              fs.mkdirSync('dist', { recursive: true });
-              fs.writeFileSync('dist/celebration.svg', d3n.svgString());
-            }
-            
-            await generateCelebration();
+            const { generateCelebration } = await import('./generate.mjs');
+            await generateCelebration(github, context);
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

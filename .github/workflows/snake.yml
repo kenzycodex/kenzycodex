@@ -3,21 +3,20 @@ name: Generate Advanced Snake Animation
 on:
   # Runs twice daily
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * *"  # Daily at midnight UTC
   # Allow manual triggering
   workflow_dispatch:
   # Run on main branch pushes
   push:
     branches:
       - main
-      - master
 
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 15  # Increased timeout for larger contribution graphs
+    timeout-minutes: 10  # Increased timeout for larger contribution graphs
 
     steps:
       - name: Checkout Repository
@@ -46,8 +45,8 @@ jobs:
           color_dots_empty: '#1F2937'
           
           # Animation settings
-          animation_duration: 4000
-          animation_frame_rate: 50
+          animation_duration: 2000
+          animation_frame_rate: 30
           
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4

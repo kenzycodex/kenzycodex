@@ -21,7 +21,7 @@
   
   [![GitHub followers](https://custom-icon-badges.demolab.com/github/followers/kenzycodex?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Join%20My%20Developer%20Community&logoColor=white)](https://github.com/kenzycodex?tab=followers)
   
-  *Together we can build something amazing! Hit the follow button on my profile to stay updated with my latest projects and coding adventures* 🚀
+  *Building amazing things through code! Follow along for more projects and dev insights 🚀*
 </div>
 </p>
 

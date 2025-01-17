@@ -6,7 +6,7 @@
 <!-- About Me Section -->
 <h3 align="center">🚀 About Me</h3>
 <p align="center">
-  A self-taught Full Stack Developer and Brand Designer passionate about creating elegant solutions. I specialize in web development, app development, branding, cloud services, databases, and crypto investment. Let's innovate together! 💻✨
+  A self-taught Full Stack Developer and Brand Designer passionate about creating elegant solutions. My focus is on delivering exceptional digital experiences that blend visual appeal with high functionality. <b>Design the code, Code the dream!</b> 💻✨
 </p>
  <!-- Profile Image with Quick Follow Button -->
  
@@ -17,7 +17,7 @@
   <br>
   <div align="center">
   
-  ### 🌟 Pls follow me & let's connect! 🌟
+  ### 🌟 Let's Innovate Together! 🌟
   
   [![GitHub followers](https://custom-icon-badges.demolab.com/github/followers/kenzycodex?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Join%20My%20Developer%20Community&logoColor=white)](https://github.com/kenzycodex?tab=followers)
   

@@ -3,12 +3,11 @@ name: Generate Advanced Snake Animation
 on:
   # Runs twice daily
   schedule:
-    - cron: "0 0 * * *"  # Daily at midnight UTC
-  # Allow manual triggering
-  workflow_dispatch:
-  # Run on main branch pushes
+    - cron: "0 0 * * *"  # Run once daily at midnight
+  workflow_dispatch:      # Allow manual triggering
   push:
     branches:
+      - master
       - main
 
 jobs:

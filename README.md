@@ -107,10 +107,27 @@
 </p>
 -->
 
-<!-- Activity Graph -->
+<!-- GitHub Stats Section using Metrics -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kenzycodex&theme=react-dark&hide_border=true&bg_color=0D1117&color=0E75B6&line=0E75B6&point=FFFFFF" alt="Activity Graph" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kenzycodex&theme=github_dark" />
 </p>
+
+<!-- Enhanced Stats Cards with Metrics -->
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kenzycodex&theme=github_dark" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kenzycodex&theme=github_dark" />
+</p>
+
+<!-- Language Distribution -->
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kenzycodex&theme=github_dark" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kenzycodex&theme=github_dark" />
+</p>
+
+<!-- Activity Graph -->
+<!-- <p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kenzycodex&theme=react-dark&hide_border=true&bg_color=0D1117&color=0E75B6&line=0E75B6&point=FFFFFF" alt="Activity Graph" />
+</p> -->
 
 <!-- Footer Wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&section=footer" />

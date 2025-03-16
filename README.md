@@ -1,9 +1,6 @@
-<div align="center">
-  <img src="https://avatars.githubusercontent.com/u/173614282?v=4" alt="Kenzy Codex" width="100" style="border-radius: 50%"/>
-  
-  # Kenzy Codex 💙
-  
-</div>
+<h1 align="center">
+  Kenzy Codex 💙
+</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=1500&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Kenzy+Codex+%F0%9F%92%99;Full+Stack+Developer;Software+Engineer;Website+Developer;AI/ML+Enthusiast" width="auto" height="35" alt="Typing" />

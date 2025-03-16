@@ -1,15 +1,9 @@
-<!-- Animated Header -->
-<div style="display: flex; justify-content: center; width: 100%; padding: 10px;">
-  <div style="display: flex; align-items: center; max-width: 500px;">
-    <img src="https://avatars.githubusercontent.com/u/173614282?v=4" alt="Kenzy Codex" width="70" 
-         style="border-radius: 50%; border: 3px solid #0e75b6; margin-right: 20px; flex-shrink: 0;"/>
-    <div style="display: flex; flex-direction: column; justify-content: center;">
-      <span style="font-size: 28px; font-weight: bold; line-height: 1.2;">Kenzy Codex 💙</span>  
-      <span style="font-size: 14px; color: gray; margin-top: 5px;">Design the code, Code the dream!</span>
-    </div>
-  </div>
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/173614282?v=4" alt="Kenzy Codex" width="100" style="border-radius: 50%"/>
+  
+  # Kenzy Codex 💙
+  
 </div>
-<hr style="margin: 20px 0;">
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=1500&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Kenzy+Codex+%F0%9F%92%99;Full+Stack+Developer;Software+Engineer;Website+Developer;AI/ML+Enthusiast" width="auto" height="35" alt="Typing" />
@@ -149,11 +143,7 @@
 
 <p align="right">
   <a href="#" title="Scroll to Top">
-    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0b6ab3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="12" r="10" stroke="#0b6ab3" fill="white"/>
-      <polyline points="16 12 12 8 8 12"/>
-      <line x1="12" y1="8" x2="12" y2="16"/>
-    </svg>
+    <img src="https://img.icons8.com/fluent/48/000000/circled-up-2.png" alt="Scroll to Top" width="40" height="40"/>
   </a>
 </p>
 

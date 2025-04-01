@@ -27,6 +27,7 @@
 </div>
 
 <h2 align="center">💻 My tech stack:</h2>
+
 <table align="center">
 <tr>
    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" width="65" height="65" alt="Java"/><br><b>Java (Language)</b></td>

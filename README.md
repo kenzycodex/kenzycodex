@@ -112,14 +112,20 @@
 </p>
 <h2 align="center">🔗 Connect with me:</h2>
 <p align="center">
+  <a href="https://tiktok.com/@kenzycodex" target="blank">
+    <img align="center" src="https://img.icons8.com/color/48/000000/tiktok.png" alt="Kenzy Codex TikTok" height="40" width="40" />
+  </a>
+  <a href="https://linkedin.com/in/kenzycodex" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Kenzy Codex LinkedIn" height="30" width="40" />
+  </a>
   <a href="https://twitter.com/kenzycodex" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Kenzy Codex Twitter" height="30" width="40" />
   </a>
   <a href="https://instagram.com/kenzycodex" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Kenzy Codex Instagram" height="30" width="40" />
   </a>
-  <a href="https://linkedin.com/in/kenzycodex" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Kenzy Codex LinkedIn" height="30" width="40" />
+  <a href="https://wa.me/+2347064538411" target="blank">
+    <img align="center" src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Kenzy Codex WhatsApp" height="40" width="40" />
   </a>
 <!--   <a href="https://dev.to/kenzycodex" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Kenzy Codex Dev.to" height="30" width="40" />
@@ -127,15 +133,9 @@
 <!--   <a href="https://linkbio.co/kenzycodex" target="blank">
     <img align="center" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Kenzy Codex Website" height="30" width="40" />
   </a> -->
-  <a href="https://tiktok.com/@kenzycodex" target="blank">
-    <img align="center" src="https://img.icons8.com/color/48/000000/tiktok.png" alt="Kenzy Codex TikTok" height="40" width="40" />
-  </a>
 <!--   <a href="https://www.youtube.com/@codewithkenzy" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="codewithkenzy" height="40" width="40" />
   </a> -->
-  <a href="https://wa.me/+2347064538411" target="blank">
-    <img align="center" src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Kenzy Codex WhatsApp" height="40" width="40" />
-  </a>
 </p>
 
 <p align="right">

@@ -11,7 +11,7 @@
 </p>
 
 <!-- About Me Section -->
-<h2 align="center">👨🏻‍💻 About me:</h2>
+<h2 align="center"> 👨🏻‍💻 About me: </h2>
 <p align="center">
   I am an enthusiastic programmer with a strong passion for technology and innovation. My journey is guided by an endless curiosity and a desire to explore new frontiers in programming. I thrive on solving intricate problems and constantly seek opportunities to challenge myself and elevate my skills to new heights. My interests includes: 
 </p>

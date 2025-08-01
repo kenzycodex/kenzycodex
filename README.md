@@ -48,6 +48,59 @@
 </table>
 <br>
 
+<h2 align="center">📚 Developer Resources & Learning Hub</h2>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=800&lines=Comprehensive+Development+Guides;Step-by-Step+Tutorials;Best+Practices+%26+Code+Examples;Open+Source+Learning+Resources" width="auto" height="30" alt="Resources"/>
+</p>
+
+<div align="center">
+
+🚀 **Check out my curated collection of developer documentation and tutorials!**
+
+<a href="https://github.com/kenzycodex/developer-resources" target="_blank">
+  <img src="https://img.shields.io/badge/📖_Developer_Resources-FF8C00?style=for-the-badge&logo=github&logoColor=white" alt="Developer Resources"/>
+</a>
+
+</div>
+
+<table align="center">
+<tr>
+  <td align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#nodejs-guides"><b>Node.js Guides</b></a>
+  </td>
+  <td align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#python-tutorials"><b>Python Tutorials</b></a>
+  </td>
+  <td align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#java-development"><b>Java Development</b></a>
+  </td>
+  <td align="center">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#laravel-handbook"><b>Laravel Handbook</b></a>
+  </td>
+  <td align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#fullstack-guides"><b>Full Stack</b></a>
+  </td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/kenzycodex/developer-resources?style=social" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/kenzycodex/developer-resources?style=social" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/watchers/kenzycodex/developer-resources?style=social" alt="GitHub watchers"/>
+</p>
+
+<div align="center">
+
+**🌟 Star the repo if you find it helpful!** | **🍴 Fork to contribute** | **📢 Share with fellow developers**
+
+</div>
+
 <hr>
 <!-- Enhanced Stats Section -->
 <p align="center">

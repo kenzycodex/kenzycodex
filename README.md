@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/banner.png" width="800" height="200" alt="Kenzy Codex Banner"/>
+</p>
+
 <h1 align="center">
   Kenzy Codex 💙
 </h1>

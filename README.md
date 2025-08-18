@@ -48,7 +48,7 @@
 </table>
 <br>
 
-<h2 align="center">📚 Developer Resources & Learning Hub</h2>
+<!--<h2 align="center">📚 Developer Resources & Learning Hub</h2>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=800&lines=Comprehensive+Development+Guides;Step-by-Step+Tutorials;Best+Practices+%26+Code+Examples;Open+Source+Learning+Resources" width="auto" height="30" alt="Resources"/>
@@ -62,7 +62,7 @@
   <img src="https://img.shields.io/badge/📖_Developer_Resources-FF8C00?style=for-the-badge&logo=github&logoColor=white" alt="Developer Resources"/>
 </a>
 
-</div>
+</div>-->
 
 <table align="center">
 <tr>

@@ -6,9 +6,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=1500&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Kenzy+Codex+%F0%9F%92%99;Full+Stack+Developer;Software+Engineer;Website+Developer;AI/ML+Enthusiast" width="auto" height="35" alt="Typing" />
 </p>
 
-<p align="center">
+<!--<p align="center">
   <img src="https://res.cloudinary.com/dry07iyvo/image/upload/v1735366890/coding_utrxxa.gif" width="300" height="auto" alt="Coding"/>
-</p>
+</p>-->
 
 <!-- About Me Section -->
 <h2 align="center"> 👨🏻‍💻 About me: </h2>

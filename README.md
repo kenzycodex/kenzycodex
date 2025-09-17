@@ -167,9 +167,9 @@
 </p>
 
 <!-- Activity Graph -->
-<!-- <p align="center">
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kenzycodex&theme=react-dark&hide_border=true&bg_color=0D1117&color=0E75B6&line=0E75B6&point=FFFFFF" alt="Activity Graph" />
-</p> -->
+</p>
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Quote"/>

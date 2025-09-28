@@ -37,7 +37,6 @@
 </div>
 
 <h2 align="center">💻 My tech stack:</h2>
-
 <table align="center">
 <tr>
    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" width="65" height="65" alt="Java"/><br><b>Java (Language)</b></td>
@@ -51,7 +50,9 @@
    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="65" height="65" alt="NodeJS"/><br><b>Node JS (Runtime)</b></td>
    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1-1.svg" width="65" height="65" alt="MongoDB"/><br><b>MongoDB (Database)</b></td>
    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="65" height="65" alt="MySQL"/><br><b>MySQL (Database)</b></td>
+   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" width="65" height="65" alt="PostgreSQL"/><br><b>PostgreSQL (Database)</b></td>
    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" width="65" height="65" alt="Firebase"/><br><b>Firebase (Platform)</b></td>
+   <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" width="65" height="65" alt="Supabase"/><br><b>Supabase (Platform)</b></td>
    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" width="65" height="65" alt="Next.js"/><br><b>Next.js (Framework)</b></td>
    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" width="65" height="65" alt="TypeScript"/><br><b>TypeScript (Language)</b></td>
 </tr>

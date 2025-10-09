@@ -30,6 +30,14 @@
 </p>
 
 <div align="center">
+  
+<img src="https://img.shields.io/badge/●●●●●-Expert-FF8C00?style=flat-square"/> 
+<img src="https://img.shields.io/badge/●●●●○-Advanced-4CAF50?style=flat-square"/> 
+<img src="https://img.shields.io/badge/●●●○○-Intermediate-2196F3?style=flat-square"/>
+
+</div>
+
+<div align="center">
 
 - **Currently Learning:** Java Programming & Machine Learning
 - **Currently Working On:** Private & Open Source Projects
@@ -112,7 +120,14 @@
 **🌟 Star the repo if you find it helpful!** | **🍴 Fork to contribute** | **📢 Share with fellow developers**
 
 </div>-->
+<div align="center">
 
+<img src="https://img.shields.io/badge/Focus-Software_Engineering-FF8C00?style=for-the-badge&logo=serverless&logoColor=white" />
+<img src="https://img.shields.io/badge/Goal-Senior_Developer-FF8C00?style=for-the-badge&logo=target&logoColor=white" />
+<img src="https://img.shields.io/badge/Dream-Global_Tech_CEO-FF8C00?style=for-the-badge&logo=rocket&logoColor=white" />
+<img src="https://img.shields.io/badge/Mission-World_Impact-FF8C00?style=for-the-badge&logo=github&logoColor=white" />
+
+</div>
 <hr>
 <!-- Enhanced Stats Section -->
 <p align="center">
@@ -125,10 +140,28 @@
   <img src="https://wakatime.com/badge/user/07817310-436e-43bb-9101-23b9e21e67b4.svg?style=for-the-badge" alt="Wakatime" />
 </p>
 
+<table align="center">
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/Daily_Average-4.5_hrs-0e75b6?style=for-the-badge&logo=clockify&logoColor=white"/>
+<br><b>Coding Time</b>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Total_Commits-2.5K+-0e75b6?style=for-the-badge&logo=git&logoColor=white"/>
+<br><b>Contributions</b>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Active_Projects-12-0e75b6?style=for-the-badge&logo=github&logoColor=white"/>
+<br><b>Repositories</b>
+</td>
+</tr>
+</table>
+
 <!-- GitHub Trophies - Preserved and Enhanced -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=kenzycodex&theme=algolia&no-frame=true&margin-w=15&column=-1" alt="GitHub Trophies" />
 </p>
+
 
 <!-- Connect Section - Preserved All Original Links -->
 <!-- <h3 align="left">Connect with me:</h3>

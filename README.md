@@ -125,7 +125,7 @@
 <img src="https://img.shields.io/badge/Focus-Software_Engineering-FF8C00?style=for-the-badge&logo=serverless&logoColor=white" />
 <img src="https://img.shields.io/badge/Goal-Senior_Developer-FF8C00?style=for-the-badge&logo=target&logoColor=white" />
 <img src="https://img.shields.io/badge/Dream-Global_Tech_CEO-FF8C00?style=for-the-badge&logo=rocket&logoColor=white" />
-<img src="https://img.shields.io/badge/Mission-World_Impact-FF8C00?style=for-the-badge&logo=github&logoColor=white" />
+<!-- <img src="https://img.shields.io/badge/Mission-World_Impact-FF8C00?style=for-the-badge&logo=github&logoColor=white" /> -->
 
 </div>
 <hr>

@@ -162,13 +162,11 @@
   <img src="https://github-profile-trophy.vercel.app/?username=kenzycodex&theme=algolia&no-frame=true&margin-w=15&column=-1" alt="GitHub Trophies" />
 </p>
 
-
 <!-- Connect Section - Preserved All Original Links -->
 <!-- <h3 align="left">Connect with me:</h3>
 <p align="left">
   
 </p> -->
-
 
 <!-- Enhanced Stats Cards -->
 <p align="center">
@@ -209,6 +207,7 @@
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Quote"/>
 </p>
+
 <!-- <h2 align="center">🔗 Connect with me:</h2>
 <p align="center">
   <a href="https://tiktok.com/@kenzycodex" target="blank">

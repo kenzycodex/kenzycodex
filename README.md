@@ -143,7 +143,7 @@
 <table align="center">
 <tr>
 <td align="center">
-<img src="https://img.shields.io/badge/Daily_Average-4.5_hrs-0e75b6?style=for-the-badge&logo=clockify&logoColor=white"/>
+<img src="https://img.shields.io/badge/Daily_Average-5.2_hrs-0e75b6?style=for-the-badge&logo=clockify&logoColor=white"/>
 <br><b>Coding Time</b>
 </td>
 <td align="center">
@@ -151,7 +151,7 @@
 <br><b>Contributions</b>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/Active_Projects-12-0e75b6?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Active_Projects-5-0e75b6?style=for-the-badge&logo=github&logoColor=white"/>
 <br><b>Repositories</b>
 </td>
 </tr>

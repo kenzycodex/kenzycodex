@@ -130,9 +130,9 @@
 </div>
 <hr>
 <!-- Enhanced Stats Section -->
-<p align="center">
+<!-- <p align="center">
   <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=kenzycodex&theme=dark&hide_border=true" />
-</p>
+</p> -->
 
 <!-- Profile Views and Wakatime -->
 <p align="center">

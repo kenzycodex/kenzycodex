@@ -130,9 +130,9 @@
 </div>
 <hr>
 <!-- Enhanced Stats Section -->
-<!-- <p align="center">
+<p align="center">
   <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=kenzycodex&theme=dark&hide_border=true" />
-</p> -->
+</p>
 
 <!-- Profile Views and Wakatime -->
 <p align="center">
@@ -162,12 +162,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=kenzycodex&theme=algolia&no-frame=true&margin-w=15&column=-1" alt="GitHub Trophies" />
 </p>
 
-<!-- Connect Section - Preserved All Original Links -->
-<!-- <h3 align="left">Connect with me:</h3>
-<p align="left">
-  
-</p> -->
-
 <!-- Enhanced Stats Cards -->
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en" alt="GitHub Stats" />
@@ -175,12 +169,11 @@
 </p>
 
 <!-- GitHub Stats - More Reliable Alternative -->
-<!-- 
+
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kenzycodex&show_icons=true&theme=algolia&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kenzycodex&layout=compact&theme=algolia&hide_border=true" alt="Top Languages" />
 </p>
--->
 
 <!-- GitHub Stats Section using Metrics -->
 <p align="center">
@@ -200,9 +193,9 @@
 </p>
 
 <!-- Activity Graph -->
-<!-- <p align="center">
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kenzycodex&theme=react-dark&hide_border=true&bg_color=0D1117&color=0E75B6&line=0E75B6&point=FFFFFF" alt="Activity Graph" />
-</p> -->
+</p>
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Quote"/>

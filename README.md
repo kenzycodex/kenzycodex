@@ -39,7 +39,7 @@
 
 <div align="center">
 
-- **Currently Learning:** Java Programming & Machine Learning
+- **Currently Learning:** Systems Design & Software Architecture
 - **Currently Working On:** Private & Open Source Projects
 
 </div>

@@ -131,7 +131,7 @@
 <hr>
 <!-- Enhanced Stats Section -->
 <p align="center">
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=kenzycodex&theme=dark&hide_border=true" />
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=kenzycodex&theme=algolia&hide_border=true" />
 </p>
 
 <!-- Profile Views and Wakatime -->
@@ -163,38 +163,39 @@
 </p>
 
 <!-- Enhanced Stats Cards -->
-<p align="center">
+<!-- <p align="center">
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
+</p> -->
 
 <!-- GitHub Stats - More Reliable Alternative -->
 
+<!-- Enhanced Stats Cards -->
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kenzycodex&show_icons=true&theme=algolia&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kenzycodex&layout=compact&theme=algolia&hide_border=true" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=kenzycodex&show_icons=true&theme=algolia&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kenzycodex&layout=compact&theme=algolia&hide_border=true" alt="Top Languages" />
 </p>
 
 <!-- GitHub Stats Section using Metrics -->
 <p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kenzycodex&theme=github_dark" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kenzycodex&theme=algolia" />
 </p>
 
 <!-- Enhanced Stats Cards with Metrics -->
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kenzycodex&theme=github_dark" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kenzycodex&theme=github_dark" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kenzycodex&theme=algolia" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kenzycodex&theme=algolia" />
 </p>
 
 <!-- Language Distribution -->
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kenzycodex&theme=github_dark" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kenzycodex&theme=github_dark" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kenzycodex&theme=algolia" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kenzycodex&theme=algolia" />
 </p>
 
 <!-- Activity Graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kenzycodex&theme=react-dark&hide_border=true&bg_color=0D1117&color=0E75B6&line=0E75B6&point=FFFFFF" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kenzycodex&theme=algolia&hide_border=true&bg_color=0D1117&color=0E75B6&line=0E75B6&point=FFFFFF" alt="Activity Graph" />
 </p>
 
 <p align="center">

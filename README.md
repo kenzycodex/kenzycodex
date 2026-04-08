@@ -143,11 +143,11 @@
 <table align="center">
 <tr>
 <td align="center">
-<img src="https://img.shields.io/badge/Daily_Average-5.2_hrs-0e75b6?style=for-the-badge&logo=clockify&logoColor=white"/>
+<img src="https://img.shields.io/badge/Daily_Average-6.8_hrs-0e75b6?style=for-the-badge&logo=clockify&logoColor=white"/>
 <br><b>Coding Time</b>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/Total_Commits-2.5K+-0e75b6?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Total_Commits-3.5K+-0e75b6?style=for-the-badge&logo=git&logoColor=white"/>
 <br><b>Contributions</b>
 </td>
 <td align="center">
@@ -157,15 +157,15 @@
 </tr>
 </table>
 
-<!-- GitHub Trophies - Preserved and Enhanced -->
+<!-- GitHub Trophies -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kenzycodex&theme=algolia&no-frame=true&margin-w=15&column=-1" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=kenzycodex&theme=algolia&no-frame=true&margin-w=15&column=-1&rank=SECRET,SSS,SS,S,AAA,AA,A&wantAchieveSuperRank=true&wantMultipleLang=true&wantLongTimeAccount=true&wantMultipleOrganizations=true" alt="GitHub Trophies" />
 </p>
 
 <!-- Enhanced Stats Cards -->
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en&layout=compact" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en&layout=compact" alt="Top Languages" />
 </p>
 
 <!-- GitHub Stats - More Reliable Alternative -->

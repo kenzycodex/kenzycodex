@@ -1,4 +1,4 @@
-# <!-- Modern Dark Dev Banner -->
+<!-- Modern Dark Dev Banner -->
 <p align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,6,6,12,12,19,19,20,20,24,24,30,30&height=220&section=header&text=DOMINION%20BALOGUN&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20Backend%20Engineer&descAlignY=55&descAlign=50&descSize=18&fontAlign=50" alt="Header Banner"/>
 </p>
@@ -17,18 +17,7 @@
   <img src="https://komarev.com/ghpvc/?username=kenzycodex&label=Profile%20Views&color=FF8C00&style=for-the-badge" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/kenzycodex?label=Followers&style=for-the-badge&color=FF8C00&labelColor=282828" alt="GitHub Followers" />
   <img src="https://wakatime.com/badge/user/07817310-436e-43bb-9101-23b9e21e67b4.svg?style=for-the-badge" alt="Coding Time" />
-  <img src="https://img.shields.io/badge/Open%20Source-❤️-FF8C00?style=for-the-badge" alt="Open Source Love"/>
-</p>
-
-<!-- Visitor Counter & Map -->
-<p align="center">
-  <img src="https://visitorbadge.io/status?path=kenzycodex&labelColor=%23003DFF&countColor=%2300BAFF&style=for-the-badge" alt="Visitors"/>
-</p>
-
-<p align="center">
-  <a href="https://clustrmaps.com/site/1bxyz" title="Visit tracker">
-    <img src="https://clustrmaps.com/map_v2.png?d=YOUR_HASH&cl=ffffff&w=600&t=n&co=0d1117&ct=00BAFF&cmo=003DFF&cmn=00C853" alt="Visitor Map"/>
-  </a>
+  <!-- <img src="https://img.shields.io/badge/Open%20Source-❤️-FF8C00?style=for-the-badge" alt="Open Source Love"/> -->
 </p>
 
 <!-- About Me Section -->
@@ -79,11 +68,65 @@
 </table>
 <br>
 
+<!--<h2 align="center">📚 Developer Resources & Learning Hub</h2>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=800&lines=Comprehensive+Development+Guides;Step-by-Step+Tutorials;Best+Practices+%26+Code+Examples;Open+Source+Learning+Resources" width="auto" height="30" alt="Resources"/>
+</p>
+
+<div align="center">
+
+🚀 **Check out my curated collection of developer documentation and tutorials!**
+
+<a href="https://github.com/kenzycodex/developer-resources" target="_blank">
+  <img src="https://img.shields.io/badge/📖_Developer_Resources-FF8C00?style=for-the-badge&logo=github&logoColor=white" alt="Developer Resources"/>
+</a>
+
+</div>
+
+<table align="center">
+<tr>
+  <td align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#nodejs-guides"><b>Node.js Guides</b></a>
+  </td>
+  <td align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#python-tutorials"><b>Python Tutorials</b></a>
+  </td>
+  <td align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#java-development"><b>Java Development</b></a>
+  </td>
+  <td align="center">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#laravel-handbook"><b>Laravel Handbook</b></a>
+  </td>
+  <td align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" width="40" height="40"/><br>
+    <a href="https://github.com/kenzycodex/developer-resources#fullstack-guides"><b>Full Stack</b></a>
+  </td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/kenzycodex/developer-resources?style=social" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/kenzycodex/developer-resources?style=social" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/watchers/kenzycodex/developer-resources?style=social" alt="GitHub watchers"/>
+</p>
+
+<div align="center">
+
+**🌟 Star the repo if you find it helpful!** | **🍴 Fork to contribute** | **📢 Share with fellow developers**
+
+</div>-->
+
 <div align="center">
 
 <img src="https://img.shields.io/badge/Focus-Software_Engineering-FF8C00?style=for-the-badge&logo=serverless&logoColor=white" />
 <img src="https://img.shields.io/badge/Goal-Senior_Developer-FF8C00?style=for-the-badge&logo=target&logoColor=white" />
 <img src="https://img.shields.io/badge/Dream-Global_Tech_CEO-FF8C00?style=for-the-badge&logo=rocket&logoColor=white" />
+<!-- <img src="https://img.shields.io/badge/Mission-World_Impact-FF8C00?style=for-the-badge&logo=github&logoColor=white" /> -->
 
 </div>
 <hr>
@@ -120,6 +163,14 @@
 <p align="center">
   <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=kenzycodex&theme=algolia&no-frame=true&margin-w=15&column=-1&rank=SECRET,SSS,SS,S,AAA,AA,A&wantAchieveSuperRank=true&wantMultipleLang=true&wantLongTimeAccount=true&wantMultipleOrganizations=true" alt="GitHub Trophies" />
 </p>
+
+<!-- Enhanced Stats Cards -->
+<!-- <p align="center">
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en&layout=compact" alt="Top Languages" />
+</p> -->
+
+<!-- GitHub Stats - More Reliable Alternative -->
 
 <!-- Enhanced Stats Cards -->
 <p align="center">
@@ -162,7 +213,6 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Quote"/>
 </p>
 
-<!-- Connect with me -->
 <h2 align="center">🔗 Connect with me:</h2>
 <p align="center">
   <a href="https://tiktok.com/@kenzycodex" target="blank">
@@ -179,6 +229,15 @@
   </a>
   <a href="https://wa.me/+2347064538411" target="blank">
     <img align="center" src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Domnix WhatsApp" height="40" width="40" />
+  </a>
+<!--   <a href="https://dev.to/kenzycodex" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Domnix Dev.to" height="30" width="40" />
+  </a> -->
+<!--   <a href="https://linkbio.co/kenzycodex" target="blank">
+    <img align="center" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Domnix Website" height="30" width="40" />
+  </a> -->
+<!--   <a href="https://www.youtube.com/@codewithkenzy" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="codewithkenzy" height="40" width="40" />
   </a>
 </p>
 

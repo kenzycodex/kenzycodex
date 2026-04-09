@@ -1,6 +1,6 @@
 <!-- Modern Dark Dev Banner -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4,5,6,8,10,12,14,15,19,20,24,25,30&height=220&section=header&text=DOMINION%20BALOGUN&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20Backend%20Engineer&descAlignY=55&descAlign=50&descSize=18&fontAlign=50" alt="Header Banner"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:003DFF,17:7B2FBE,33:FF0000,50:FF6B00,67:00BAFF,83:6200EA,100:003DFF&height=220&section=header&text=DOMINION%20BALOGUN&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20Backend%20Engineer&descAlignY=55&descAlign=50&descSize=18&fontAlign=50" alt="Header Banner"/>
 </p>
 
 <h1 align="center">

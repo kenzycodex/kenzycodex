@@ -213,7 +213,7 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Quote"/>
 </p>
 
-<h2 align="center">🔗 Connect with me:</h2>
+<!-- <h2 align="center">🔗 Connect with me:</h2>
 <p align="center">
   <a href="https://tiktok.com/@kenzycodex" target="blank">
     <img align="center" src="https://img.icons8.com/color/48/000000/tiktok.png" alt="Domnix TikTok" height="40" width="40" />
@@ -229,7 +229,7 @@
   </a>
   <a href="https://wa.me/+2347064538411" target="blank">
     <img align="center" src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Domnix WhatsApp" height="40" width="40" />
-  </a>
+  </a> -->
 <!--   <a href="https://dev.to/kenzycodex" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Domnix Dev.to" height="30" width="40" />
   </a> -->

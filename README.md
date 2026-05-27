@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">
-  Domnix the Creator 💙
+  Kenzy the Creator 💙
 </h1>
 
 <!-- Original Typing Animation -->

@@ -173,23 +173,27 @@
 <!-- GitHub Stats - More Reliable Alternative -->
 
 <!-- Enhanced Stats Cards -->
+<!--
 <p align="center">
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=kenzycodex&show_icons=true&theme=algolia&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kenzycodex&layout=compact&theme=algolia&hide_border=true" alt="Top Languages" />
 </p>
 
 <!-- GitHub Stats Section using Metrics -->
+<!--
 <p align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kenzycodex&theme=algolia" />
 </p>
 
 <!-- Enhanced Stats Cards with Metrics -->
+<!--
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kenzycodex&theme=algolia" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kenzycodex&theme=algolia" />
 </p>
 
 <!-- Language Distribution -->
+<!--
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kenzycodex&theme=algolia" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kenzycodex&theme=algolia" />

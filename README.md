@@ -145,15 +145,15 @@
 <table align="center">
 <tr>
 <td align="center">
-<img src="https://img.shields.io/badge/Daily_Average-6.8_hrs-0e75b6?style=for-the-badge&logo=clockify&logoColor=white"/>
+<img src="https://img.shields.io/badge/Daily_Average-7.2_hrs-0e75b6?style=for-the-badge&logo=clockify&logoColor=white"/>
 <br><b>Coding Time</b>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/Total_Commits-3.5K+-0e75b6?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Total_Commits-3.8K+-0e75b6?style=for-the-badge&logo=git&logoColor=white"/>
 <br><b>Contributions</b>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/Active_Projects-5-0e75b6?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Active_Projects-4-0e75b6?style=for-the-badge&logo=github&logoColor=white"/>
 <br><b>Repositories</b>
 </td>
 </tr>
@@ -173,27 +173,27 @@
 <!-- GitHub Stats - More Reliable Alternative -->
 
 <!-- Enhanced Stats Cards -->
-<!--
+
 <p align="center">
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=kenzycodex&show_icons=true&theme=algolia&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kenzycodex&layout=compact&theme=algolia&hide_border=true" alt="Top Languages" />
 </p>
 
 <!-- GitHub Stats Section using Metrics -->
-<!--
+
 <p align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kenzycodex&theme=algolia" />
 </p>
 
 <!-- Enhanced Stats Cards with Metrics -->
-<!--
+
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kenzycodex&theme=algolia" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kenzycodex&theme=algolia" />
 </p>
 
 <!-- Language Distribution -->
-<!--
+
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kenzycodex&theme=algolia" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kenzycodex&theme=algolia" />

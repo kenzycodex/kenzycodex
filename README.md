@@ -23,7 +23,11 @@
 <!-- About Me Section -->
 <h2 align="center"> 👨🏻‍💻 About me: </h2>
 <p align="center">
-  I am an enthusiastic programmer with a strong passion for technology and innovation. My journey is guided by an endless curiosity and a desire to explore new frontiers in programming. I thrive on solving intricate problems and constantly seek opportunities to challenge myself and elevate my skills to new heights. My interests includes: 
+  I'm Kenzy, a software engineer and systems designer who enjoys understanding how things work and building solutions to real-world problems.
+
+My work focuses on backend engineering, system architecture, and building reliable, scalable applications. I'm particularly interested in distributed systems, AI-powered solutions, and designing software that makes a meaningful impact.
+
+Beyond writing code, I enjoy exploring new technologies, collaborating with other builders, and turning ambitious ideas into working products. My interests includes: 
 </p>
 <p align="center">
    <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%23FF8C00&size=30&center=true&vCenter=true&width=450&duration=1500&pause=1000&lines=Backend+Development;Artificial+Intelligence;Machine+Learning;Cloud+Computing;Distributed+Systems;Serverless+Architecture" width="auto" height="30" alt="Typing"/>

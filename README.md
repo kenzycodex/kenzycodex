@@ -21,8 +21,8 @@
 </p>
 
 <!-- About Me Section -->
-<h2 align="center"> 👨🏻‍💻 About me: </h2>
-<p align="center">
+<h2 align="left"> 👨🏻‍💻 About me: </h2>
+<p align="left">
   I'm Kenzy, a software engineer and systems designer who enjoys understanding how things work and building solutions to real-world problems.
 
 My work focuses on backend engineering, system architecture, and building reliable, scalable applications. I'm particularly interested in distributed systems, AI-powered solutions, and designing software that makes a meaningful impact.

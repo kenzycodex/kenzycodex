@@ -43,42 +43,52 @@
   🛠️ <b>Currently building:</b> Private &amp; Open Source Projects
 </p>
 
-<h2 align="center">💻 My tech stack</h2>
-<!-- Original labeled-icon table layout restored; grouped by discipline for readability -->
-<h3 align="center">Languages &amp; Backend</h3>
-<table align="center"><tr>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" /><br/><b>TypeScript</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" /><br/><b>JavaScript</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" /><br/><b>Node.js</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="48" height="48" alt="Express" /><br/><b>Express</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="48" height="48" alt="Python" /><br/><b>Python</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="48" height="48" alt="Java" /><br/><b>Java</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="48" height="48" alt="Spring Boot" /><br/><b>Spring Boot</b></td>
-</tr></table>
-<h3 align="center">Frontend &amp; UI</h3>
-<table align="center"><tr>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="48" height="48" alt="Next.js" /><br/><b>Next.js</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="48" height="48" alt="React" /><br/><b>React</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="48" height="48" alt="Tailwind" /><br/><b>Tailwind</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" /><br/><b>HTML5</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" /><br/><b>CSS3</b></td>
-</tr></table>
-<h3 align="center">Databases, Cloud &amp; Tools</h3>
-<table align="center"><tr>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" /><br/><b>PostgreSQL</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="48" height="48" alt="MySQL" /><br/><b>MySQL</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="48" height="48" alt="MongoDB" /><br/><b>MongoDB</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="48" height="48" alt="Redis" /><br/><b>Redis</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" width="48" height="48" alt="Prisma" /><br/><b>Prisma</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="48" height="48" alt="Supabase" /><br/><b>Supabase</b></td>
-</tr><tr>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" /><br/><b>Docker</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" width="48" height="48" alt="Cloudflare" /><br/><b>Cloudflare</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" width="48" height="48" alt="Vercel" /><br/><b>Vercel</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" /><br/><b>Git</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" /><br/><b>Linux</b></td>
-  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" /><br/><b>GitHub</b></td>
-</tr></table>
+
+
+<h2 align="center">💻 My Tech Stack</h2>
+
+<!-- One unified 7-column table ensures consistent width across all categories. -->
+<table align="center">
+  <tr><th colspan="7" align="center">Languages &amp; Backend</th></tr>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="42" height="42" alt="TypeScript"/><br/><b>TypeScript</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="42" height="42" alt="JavaScript"/><br/><b>JavaScript</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="42" height="42" alt="Node.js"/><br/><b>Node.js</b></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/express/FFFFFF" width="42" height="42" alt="Express"/><br/><b>Express</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="42" height="42" alt="Python"/><br/><b>Python</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="42" height="42" alt="Java"/><br/><b>Java</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="42" height="42" alt="Spring Boot"/><br/><b>Spring Boot</b></td>
+  </tr>
+  <tr><th colspan="7" align="center">Frontend &amp; UI</th></tr>
+  <tr>
+    <td></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/nextdotjs/FFFFFF" width="42" height="42" alt="Next.js"/><br/><b>Next.js</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="42" height="42" alt="React"/><br/><b>React</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="42" height="42" alt="Tailwind"/><br/><b>Tailwind</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="42" height="42" alt="HTML5"/><br/><b>HTML5</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="42" height="42" alt="CSS3"/><br/><b>CSS3</b></td>
+    <td></td>
+  </tr>
+  <tr><th colspan="7" align="center">Databases, Cloud &amp; Tools</th></tr>
+  <tr>
+    <td></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="42" height="42" alt="PostgreSQL"/><br/><b>PostgreSQL</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="42" height="42" alt="MySQL"/><br/><b>MySQL</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="42" height="42" alt="MongoDB"/><br/><b>MongoDB</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="42" height="42" alt="Redis"/><br/><b>Redis</b></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/prisma/FFFFFF" width="42" height="42" alt="Prisma"/><br/><b>Prisma</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="42" height="42" alt="Supabase"/><br/><b>Supabase</b></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="42" height="42" alt="Docker"/><br/><b>Docker</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" width="42" height="42" alt="Cloudflare"/><br/><b>Cloudflare</b></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/vercel/FFFFFF" width="42" height="42" alt="Vercel"/><br/><b>Vercel</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="42" height="42" alt="Git"/><br/><b>Git</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="42" height="42" alt="Linux"/><br/><b>Linux</b></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/github/FFFFFF" width="42" height="42" alt="GitHub"/><br/><b>GitHub</b></td>
+  </tr>
+</table>
 
 <!-- Selected work and useful context -->
 <h2 align="left">🚀 Selected work &amp; projects</h2>
@@ -137,10 +147,17 @@
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kenzycodex&amp;theme=algolia" alt="Languages by commits" />
 </p>
 
-<!-- Self-hosted activity graph: run the Activity Graph GitHub Action once to populate this section. -->
-<h3 align="center">📈 Contribution activity</h3>
-<!-- BEGIN ACTIVITY-GRAPH -->
-<!-- END ACTIVITY-GRAPH -->
+
+<!-- GitHub Contribution Activity -->
+<h2 align="center">📈 GitHub Contribution Activity</h2>
+
+<p align="center">
+  <img
+    src="https://gh-heat.anishroy.com/api/kenzycodex/svg?theme=blue&darkMode=true"
+    alt="Kenzy's GitHub Contribution Activity"
+    width="100%"
+  />
+</p>
 
 <!-- Existing snake contribution animation -->
 <p align="center">
@@ -163,7 +180,7 @@
 <p align="left">
   <a href="mailto:kenzycodex@gmail.com"><img src="https://img.shields.io/badge/Email-0E75B6?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/creatorkenzy"><img src="https://img.shields.io/badge/LinkedIn-0E75B6?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/creatorkenzy"><img src="https://img.shields.io/badge/X-0E75B6?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Twitter" /></a>
+  <a href="https://twitter.com/creatorkenzy"><img src="https://img.shields.io/badge/Twitter-0E75B6?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Twitter" /></a>
   <a href="https://kenzycodex.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0E75B6?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio" /></a>
 </p>
 

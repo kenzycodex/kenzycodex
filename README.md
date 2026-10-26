@@ -1,259 +1,173 @@
-<!-- Modern Dark Dev Banner -->
+<!-- Modern Dark Dev Banner | Original theme preserved -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,6,6,12,12,19,19,20,20,24,24,30,30&height=220&section=header&text=DOMINION%20BALOGUN&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20Backend%20Engineer&descAlignY=55&descAlign=50&descSize=18&fontAlign=50" alt="Header Banner"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,6,6,12,12,19,19,20,20,24,24,30,30&amp;height=220&amp;section=header&amp;text=DOMINION%20BALOGUN&amp;fontSize=70&amp;fontColor=ffffff&amp;animation=twinkling&amp;fontAlignY=35&amp;desc=Software%20Engineer%20%7C%20Systems%20Designer&amp;descAlignY=55&amp;descAlign=50&amp;descSize=18&amp;fontAlign=50" alt="Dominion Balogun banner" />
 </p>
 
-<h1 align="center">
-  Kenzy the Creator 💙
-</h1>
+<h1 align="center">Kenzy the Creator 💙</h1>
 
-<!-- Original Typing Animation -->
+<!-- Animated introduction -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=2000&pause=800&color=FF8C00&center=true&vCenter=true&random=false&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Domnix+%F0%9F%92%99;Full+Stack+Developer;Software+Engineer;Website+Developer;AI/ML+Enthusiast" width="auto" height="35" alt="Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=25&amp;duration=2000&amp;pause=800&amp;color=FF8C00&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=700&amp;lines=Hi%2C+I%27m+Kenzy+%F0%9F%91%8B;Software+Engineer;Backend+Developer;Systems+Designer;Building+Scalable+Systems;Exploring+AI+%26+Distributed+Systems" alt="Animated roles" />
 </p>
 
-<!-- Professional Status Badges -->
+<!-- Original status badges -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kenzycodex&label=Profile%20Views&color=FF8C00&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/kenzycodex?label=Followers&style=for-the-badge&color=FF8C00&labelColor=282828" alt="GitHub Followers" />
-  <img src="https://wakatime.com/badge/user/07817310-436e-43bb-9101-23b9e21e67b4.svg?style=for-the-badge" alt="Coding Time" />
-  <!-- <img src="https://img.shields.io/badge/Open%20Source-❤️-FF8C00?style=for-the-badge" alt="Open Source Love"/> -->
+  <img src="https://komarev.com/ghpvc/?username=kenzycodex&amp;label=Profile%20Views&amp;color=FF8C00&amp;style=for-the-badge" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/kenzycodex?label=Followers&amp;style=for-the-badge&amp;color=FF8C00&amp;labelColor=282828" alt="Followers" />
+  <img src="https://wakatime.com/badge/user/07817310-436e-43bb-9101-23b9e21e67b4.svg?style=for-the-badge" alt="WakaTime coding time" />
 </p>
 
-<!-- About Me Section -->
-<h2 align="left"> 👨🏻‍💻 About me: </h2>
+<h2 align="left">👨🏻‍💻 About me</h2>
 <p align="left">
   I'm Kenzy, a software engineer and systems designer who enjoys understanding how things work and building solutions to real-world problems.
-
-My work focuses on backend engineering, system architecture, and building reliable, scalable applications. I'm particularly interested in distributed systems, AI-powered solutions, and designing software that makes a meaningful impact.
-
-Beyond writing code, I enjoy exploring new technologies, collaborating with other builders, and turning ambitious ideas into working products. My interests includes: 
 </p>
+<p align="left">
+  My work focuses on backend engineering, system architecture, and building reliable, scalable applications. I'm particularly interested in distributed systems, AI-powered solutions, and designing software that makes a meaningful impact.
+</p>
+<p align="left">
+  Beyond writing code, I enjoy exploring new technologies, collaborating with other builders, and turning ambitious ideas into working products.
+</p>
+
 <p align="center">
-   <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%23FF8C00&size=30&center=true&vCenter=true&width=450&duration=1500&pause=1000&lines=Backend+Development;Artificial+Intelligence;Machine+Learning;Cloud+Computing;Distributed+Systems;Serverless+Architecture" width="auto" height="30" alt="Typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&amp;color=FF8C00&amp;size=25&amp;center=true&amp;vCenter=true&amp;width=600&amp;duration=1500&amp;pause=1000&amp;lines=Backend+Engineering;System+Architecture;Artificial+Intelligence;Cloud+Computing;Distributed+Systems;Software+Design" alt="Areas of interest" />
 </p>
 
 <div align="center">
-  
-<img src="https://img.shields.io/badge/●●●●●-Expert-FF8C00?style=flat-square"/> 
-<img src="https://img.shields.io/badge/●●●●○-Advanced-4CAF50?style=flat-square"/> 
-<img src="https://img.shields.io/badge/●●●○○-Intermediate-2196F3?style=flat-square"/>
-
+  <img src="https://img.shields.io/badge/Focus-Backend_Engineering-FF8C00?style=flat-square" alt="Backend engineering" />
+  <img src="https://img.shields.io/badge/Interest-Distributed_Systems-4CAF50?style=flat-square" alt="Distributed systems" />
+  <img src="https://img.shields.io/badge/Exploring-AI_Systems-2196F3?style=flat-square" alt="AI systems" />
 </div>
 
-<div align="center">
+<p align="center">
+  📚 <b>Currently learning:</b> Systems Design &amp; Software Architecture<br />
+  🛠️ <b>Currently building:</b> Private &amp; Open Source Projects
+</p>
 
-- **Currently Learning:** Systems Design & Software Architecture
-- **Currently Working On:** Private & Open Source Projects
+<h2 align="center">💻 My tech stack</h2>
+<!-- Original labeled-icon table layout restored; grouped by discipline for readability -->
+<h3 align="center">Languages &amp; Backend</h3>
+<table align="center"><tr>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" /><br/><b>TypeScript</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" /><br/><b>JavaScript</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" /><br/><b>Node.js</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="48" height="48" alt="Express" /><br/><b>Express</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="48" height="48" alt="Python" /><br/><b>Python</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="48" height="48" alt="Java" /><br/><b>Java</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="48" height="48" alt="Spring Boot" /><br/><b>Spring Boot</b></td>
+</tr></table>
+<h3 align="center">Frontend &amp; UI</h3>
+<table align="center"><tr>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="48" height="48" alt="Next.js" /><br/><b>Next.js</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="48" height="48" alt="React" /><br/><b>React</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="48" height="48" alt="Tailwind" /><br/><b>Tailwind</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" /><br/><b>HTML5</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" /><br/><b>CSS3</b></td>
+</tr></table>
+<h3 align="center">Databases, Cloud &amp; Tools</h3>
+<table align="center"><tr>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" /><br/><b>PostgreSQL</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="48" height="48" alt="MySQL" /><br/><b>MySQL</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="48" height="48" alt="MongoDB" /><br/><b>MongoDB</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="48" height="48" alt="Redis" /><br/><b>Redis</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" width="48" height="48" alt="Prisma" /><br/><b>Prisma</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="48" height="48" alt="Supabase" /><br/><b>Supabase</b></td>
+</tr><tr>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" /><br/><b>Docker</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" width="48" height="48" alt="Cloudflare" /><br/><b>Cloudflare</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" width="48" height="48" alt="Vercel" /><br/><b>Vercel</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" /><br/><b>Git</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" /><br/><b>Linux</b></td>
+  <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" /><br/><b>GitHub</b></td>
+</tr></table>
 
-</div>
-
-<h2 align="center">💻 My tech stack:</h2>
-<table align="center">
-<tr>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" width="65" height="65" alt="Java"/><br><b>Java (Language)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="65" height="65" alt="Python"/><br><b>Python (Language)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" width="65" height="65" alt="HTML"/><br><b>HTML (Markup)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" width="65" height="65" alt="CSS"/><br><b>CSS (Stylesheet)</b></td>
-   <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="65" height="65" alt="JavaScript"/><br><b>JavaScript (Language)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="65" height="65" alt="Tailwind"/><br><b>Tailwind (Framework)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/sass-1.svg" width="65" height="65" alt="SCSS"/><br><b>SCSS (Library)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg" width="65" height="65" alt="Bootstrap"/><br><b>Bootstrap (Framework)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" width="65" height="65" alt="React"/><br><b>React JS (Library)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="65" height="65" alt="NodeJS"/><br><b>Node JS (Runtime)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1-1.svg" width="65" height="65" alt="MongoDB"/><br><b>MongoDB (Database)</b></td>
-   <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="65" height="65" alt="MySQL"/><br><b>MySQL (Database)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" width="65" height="65" alt="PostgreSQL"/><br><b>PostgreSQL (Database)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" width="65" height="65" alt="Firebase"/><br><b>Firebase (Platform)</b></td>
-   <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" width="65" height="65" alt="Supabase"/><br><b>Supabase (Platform)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" width="65" height="65" alt="Next.js"/><br><b>Next.js (Framework)</b></td>
-   <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" width="65" height="65" alt="TypeScript"/><br><b>TypeScript (Language)</b></td>
-</tr>
+<!-- Selected work and useful context -->
+<h2 align="left">🚀 Selected work &amp; projects</h2>
+<p align="left">A few problems and products I have been working on:</p>
+<table>
+  <tr><th align="left">Project</th><th align="left">What I work on</th></tr>
+  <tr><td><b>Fable</b></td><td>Exploring AI-assisted fraud intelligence and security for digital banking, with attention to risk, user experience, and practical integration.</td></tr>
+  <tr><td><b>Backend platforms &amp; APIs</b></td><td>Designing services, data models, and integrations for real-world web applications.</td></tr>
+  <tr><td><b>Engineering experiments</b></td><td>Prototyping ideas in system design, distributed systems, and AI-assisted workflows.</td></tr>
 </table>
-<br>
+<p><i>Some client and team projects are private; I share public code and examples where possible.</i></p>
 
-<!--<h2 align="center">📚 Developer Resources & Learning Hub</h2>
+<h2 align="left">🧠 What I'm exploring</h2>
+<ul>
+  <li><b>System design:</b> scalable APIs, service boundaries, caching, messaging, and reliability.</li>
+  <li><b>AI-powered software:</b> integrating intelligent capabilities into useful, secure products.</li>
+  <li><b>Developer craft:</b> readable code, testing, thoughtful trade-offs, and maintainable architecture.</li>
+</ul>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=800&lines=Comprehensive+Development+Guides;Step-by-Step+Tutorials;Best+Practices+%26+Code+Examples;Open+Source+Learning+Resources" width="auto" height="30" alt="Resources"/>
+<h2 align="left">🧭 How I approach engineering</h2>
+<p align="left">
+  I like understanding the problem before choosing the stack. I care about clear APIs, sensible data models, resilience, and building the simplest solution that can evolve as requirements grow.
 </p>
 
-<div align="center">
-
-🚀 **Check out my curated collection of developer documentation and tutorials!**
-
-<a href="https://github.com/kenzycodex/developer-resources" target="_blank">
-  <img src="https://img.shields.io/badge/📖_Developer_Resources-FF8C00?style=for-the-badge&logo=github&logoColor=white" alt="Developer Resources"/>
-</a>
-
-</div>
-
-<table align="center">
-<tr>
-  <td align="center">
-    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="40" height="40"/><br>
-    <a href="https://github.com/kenzycodex/developer-resources#nodejs-guides"><b>Node.js Guides</b></a>
-  </td>
-  <td align="center">
-    <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="40" height="40"/><br>
-    <a href="https://github.com/kenzycodex/developer-resources#python-tutorials"><b>Python Tutorials</b></a>
-  </td>
-  <td align="center">
-    <img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" width="40" height="40"/><br>
-    <a href="https://github.com/kenzycodex/developer-resources#java-development"><b>Java Development</b></a>
-  </td>
-  <td align="center">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="40" height="40"/><br>
-    <a href="https://github.com/kenzycodex/developer-resources#laravel-handbook"><b>Laravel Handbook</b></a>
-  </td>
-  <td align="center">
-    <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" width="40" height="40"/><br>
-    <a href="https://github.com/kenzycodex/developer-resources#fullstack-guides"><b>Full Stack</b></a>
-  </td>
-</tr>
-</table>
-
+<!-- Original goal badges, retained -->
 <p align="center">
-  <img src="https://img.shields.io/github/stars/kenzycodex/developer-resources?style=social" alt="GitHub stars"/>
-  <img src="https://img.shields.io/github/forks/kenzycodex/developer-resources?style=social" alt="GitHub forks"/>
-  <img src="https://img.shields.io/github/watchers/kenzycodex/developer-resources?style=social" alt="GitHub watchers"/>
+  <img src="https://img.shields.io/badge/Focus-Software_Engineering-FF8C00?style=for-the-badge&amp;logo=serverless&amp;logoColor=white" alt="Focus: Software Engineering" />
+  <img src="https://img.shields.io/badge/Goal-Senior_Developer-FF8C00?style=for-the-badge&amp;logo=target&amp;logoColor=white" alt="Goal: Senior Developer" />
+  <img src="https://img.shields.io/badge/Dream-Global_Tech_CEO-FF8C00?style=for-the-badge&amp;logo=rocket&amp;logoColor=white" alt="Dream: Global Tech CEO" />
 </p>
 
-<div align="center">
+<hr />
 
-**🌟 Star the repo if you find it helpful!** | **🍴 Fork to contribute** | **📢 Share with fellow developers**
-
-</div>-->
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Focus-Software_Engineering-FF8C00?style=for-the-badge&logo=serverless&logoColor=white" />
-<img src="https://img.shields.io/badge/Goal-Senior_Developer-FF8C00?style=for-the-badge&logo=target&logoColor=white" />
-<img src="https://img.shields.io/badge/Dream-Global_Tech_CEO-FF8C00?style=for-the-badge&logo=rocket&logoColor=white" />
-<!-- <img src="https://img.shields.io/badge/Mission-World_Impact-FF8C00?style=for-the-badge&logo=github&logoColor=white" /> -->
-
-</div>
-<hr>
-
-<!-- Enhanced Stats Section -->
-<!-- <p align="center">
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=kenzycodex&theme=algolia&hide_border=true" />
-</p> -->
-
-<!-- Profile Views and Wakatime -->
+<h2 align="center">📊 GitHub activity</h2>
+<!-- One set of live stats; removed duplicated views and hard-coded totals -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kenzycodex&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
-  <img src="https://wakatime.com/badge/user/07817310-436e-43bb-9101-23b9e21e67b4.svg?style=for-the-badge" alt="Wakatime" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=kenzycodex&amp;show_icons=true&amp;theme=algolia&amp;hide_border=true&amp;count_private=true" alt="GitHub stats" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kenzycodex&amp;layout=compact&amp;theme=algolia&amp;hide_border=true" alt="Top languages" />
 </p>
 
-<table align="center">
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/Daily_Average-7.2_hrs-0e75b6?style=for-the-badge&logo=clockify&logoColor=white"/>
-<br><b>Coding Time</b>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Total_Commits-3.8K+-0e75b6?style=for-the-badge&logo=git&logoColor=white"/>
-<br><b>Contributions</b>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Active_Projects-4-0e75b6?style=for-the-badge&logo=github&logoColor=white"/>
-<br><b>Repositories</b>
-</td>
-</tr>
-</table>
-
-<!-- GitHub Trophies -->
+<!-- Original trophy section -->
 <p align="center">
-  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=kenzycodex&theme=algolia&no-frame=true&margin-w=15&column=-1&rank=SECRET,SSS,SS,S,AAA,AA,A&wantAchieveSuperRank=true&wantMultipleLang=true&wantLongTimeAccount=true&wantMultipleOrganizations=true" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=kenzycodex&amp;theme=algolia&amp;no-frame=true&amp;margin-w=15&amp;column=-1&amp;rank=SECRET,SSS,SS,S,AAA,AA,A&amp;wantAchieveSuperRank=true&amp;wantMultipleLang=true&amp;wantLongTimeAccount=true&amp;wantMultipleOrganizations=true" alt="GitHub trophies" />
 </p>
 
-<!-- Enhanced Stats Cards -->
-<!-- <p align="center">
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=kenzycodex&show_icons=true&theme=github_dark&hide_border=true&locale=en&layout=compact" alt="Top Languages" />
-</p> -->
-
-<!-- GitHub Stats - More Reliable Alternative -->
-
-<!-- Enhanced Stats Cards -->
-
+<!-- Keep the original profile summary cards -->
 <p align="center">
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=kenzycodex&show_icons=true&theme=algolia&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kenzycodex&layout=compact&theme=algolia&hide_border=true" alt="Top Languages" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kenzycodex&amp;theme=algolia" alt="GitHub contribution details" />
+</p>
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kenzycodex&amp;theme=algolia" alt="Contribution statistics" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kenzycodex&amp;theme=algolia" alt="Productive coding time" />
+</p>
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kenzycodex&amp;theme=algolia" alt="Languages by repository" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kenzycodex&amp;theme=algolia" alt="Languages by commits" />
 </p>
 
-<!-- GitHub Stats Section using Metrics -->
+<!-- Self-hosted activity graph: run the Activity Graph GitHub Action once to populate this section. -->
+<h3 align="center">📈 Contribution activity</h3>
+<!-- BEGIN ACTIVITY-GRAPH -->
+<!-- END ACTIVITY-GRAPH -->
 
-<p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kenzycodex&theme=algolia" />
-</p>
-
-<!-- Enhanced Stats Cards with Metrics -->
-
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kenzycodex&theme=algolia" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kenzycodex&theme=algolia" />
-</p>
-
-<!-- Language Distribution -->
-
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kenzycodex&theme=algolia" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kenzycodex&theme=algolia" />
-</p>
-
-<!-- Activity Graph -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kenzycodex&theme=algolia&hide_border=true&bg_color=0D1117&color=0E75B6&line=0E75B6&point=FFFFFF" alt="Activity Graph" />
-</p>
-
-<!-- Snake Contribution Graph -->
+<!-- Existing snake contribution animation -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake-light.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake.svg" />
+    <img src="https://raw.githubusercontent.com/kenzycodex/kenzycodex/output/snake.svg" alt="Contribution snake animation" />
   </picture>
 </p>
 
+<!-- Original quote -->
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=transparent" alt="Developer quote" />
 </p>
 
-<!-- <h2 align="center">🔗 Connect with me:</h2>
+<h2 align="left">🤝 Let's connect</h2>
+<p align="left">
+  I enjoy meeting engineers, founders, and curious builders. Always happy to connect around backend systems, architecture, AI, and meaningful products.
+</p>
+<p align="left">
+  <a href="mailto:kenzycodex@gmail.com"><img src="https://img.shields.io/badge/Email-0E75B6?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/creatorkenzy"><img src="https://img.shields.io/badge/LinkedIn-0E75B6?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://twitter.com/creatorkenzy"><img src="https://img.shields.io/badge/X-0E75B6?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Twitter" /></a>
+  <a href="https://kenzycodex.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0E75B6?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio" /></a>
+</p>
+
+<!-- Original footer wave -->
 <p align="center">
-  <a href="https://tiktok.com/@kenzycodex" target="blank">
-    <img align="center" src="https://img.icons8.com/color/48/000000/tiktok.png" alt="Domnix TikTok" height="40" width="40" />
-  </a>
-  <a href="https://linkedin.com/in/kenzycodex" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Domnix LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://twitter.com/kenzycodex" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Domnix Twitter" height="30" width="40" />
-  </a>
-  <a href="https://instagram.com/kenzycodex" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Domnix Instagram" height="30" width="40" />
-  </a>
-  <a href="https://wa.me/+2347064538411" target="blank">
-    <img align="center" src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Domnix WhatsApp" height="40" width="40" />
-  </a> -->
-<!--   <a href="https://dev.to/kenzycodex" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Domnix Dev.to" height="30" width="40" />
-  </a> -->
-<!--   <a href="https://linkbio.co/kenzycodex" target="blank">
-    <img align="center" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Domnix Website" height="30" width="40" />
-  </a> -->
-<!--   <a href="https://www.youtube.com/@codewithkenzy" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="codewithkenzy" height="40" width="40" />
-  </a>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,6,6,12,12,19,19,20,20,24,24,30,30&amp;height=100&amp;section=footer" alt="Footer wave" />
 </p>
-
-<p align="right">
-  <a href="#" title="Scroll to Top">
-    <img src="https://img.icons8.com/fluent/48/000000/circled-up-2.png" alt="Scroll to Top" width="40" height="40"/>
-  </a>
-</p>
-
-<!-- Footer Wave - matching header gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,6,6,12,12,19,19,20,20,24,24,30,30&height=100&section=footer" />

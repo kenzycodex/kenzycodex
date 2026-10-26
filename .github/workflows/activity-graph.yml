@@ -1,0 +1,20 @@
+name: Activity Graph
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  activity-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+      - name: Generate and embed activity graph
+        uses: alexcerezo/activity-graph@v1
+        with:
+          username: kenzycodex

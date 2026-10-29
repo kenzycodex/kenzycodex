@@ -180,8 +180,8 @@
 <p align="left">
   <a href="mailto:kenzycodex@gmail.com"><img src="https://img.shields.io/badge/Email-0E75B6?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/creatorkenzy"><img src="https://img.shields.io/badge/LinkedIn-0E75B6?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/creatorkenzy"><img src="https://img.shields.io/badge/Twitter-0E75B6?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Twitter" /></a>
-  <a href="https://kenzycodex.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0E75B6?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio" /></a>
+  <!-- <a href="https://twitter.com/creatorkenzy"><img src="https://img.shields.io/badge/Twitter-0E75B6?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Twitter" /></a> -->
+  <!-- <a href="https://kenzycodex.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0E75B6?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio" /></a> -->
 </p>
 
 <!-- Original footer wave -->
